@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive;
+}
+header{
+    background-color: rgba(226,202,197,1.00);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+header h1{
+    left: 20%;
+}
+body{
+    background-color:rgba(226,202,197,1.00);
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+        text-align: center;
+        background-color: darksalmon;
+        padding: 1rem;
+        margin: auto;
+        width: 1000px;
+}
+#venta{
+    background-color: tan;
+    
+}
+#venta h3, h4, p{
+	text-align: center;
+}
+#venta h3{
+    margin-top: 20px;
+}
+
+#venta .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#venta article{
+	margin: 15px;
+}
+#venta img{
+	width: 100%;
+	max-width: 300px;
+	border: 5px double rgba(255,232,113,1.00);
+}
+#tarjeta{
+    text-align: center;
+}    
+#positivo{
+    text-align: center;
+    background-color:rgb(65, 206, 136);
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid slateblue;
+} 
+#negativo{
+    text-align: center;
+    background-color:rgb(238, 97, 97);
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid slateblue;         
+}

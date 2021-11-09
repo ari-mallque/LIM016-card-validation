@@ -1,0 +1,23 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+#banner .contenedor{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    
+}
+#banner h2{
+    font-size: 40px;
+    color: rgba(255,174,207,1.00);
+}
+#banner p{
+	text-align: left;
+	color: rgba(255,255,255,1.00);
+}

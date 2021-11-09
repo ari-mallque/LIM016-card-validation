@@ -2,13 +2,97 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Vivero Gran Orquidea</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="banner.css" />
   </head>
   <body>
-    <header>Validación de tarjeta</header>
-    <main></main>
-    <footer></footer>
+    <header> 
+      <div class= "contenedor1">
+        <h1>Gran Orquidea</h1>
+      </div>
+    </header>
+    <main>
+      <section id= "banner">
+        <img src="img/jardin.jpg" alt="">
+        <div class="contenedor">
+        <h2>"Conoce todo lo que podemos hacer por tu Jardin"</h2>
+        <p>Descubre nuestra variedad de plantas que tenemos en nuestro centro de produccion y elige las que mas te gusten</p>
+        </div>
+      </section>
+      <section id="bienvenidos">
+        <h2 id="nombreh2"></h2>
+		    <p>Somos una empresa con conciencia ecologica, responsable y puntual, con mas de 20 años de experiencia</p>
+      </section>
+
+      <section id="venta">
+
+        <h3>Nuestras bellas plantas</h3>
+        <p id="vivero">En Vivero Gran Orquidea nos dedicamos a producir y entregar plantas altamente productivas y de calidad. ¡Elige la que más te guste!</p>
+        <div class="contenedor">
+        
+        <article id="planta1">
+          <button id="Rosas"><img src="img/img1.jpg" alt=""></button>
+          <h4>Rosas</h4>
+        </article>
+
+        <article id="planta2">
+          <button id="Margaritas"><img src="img/img2.jpg" alt=""></button>
+          <h4>Margaritas</h4>
+        </article>
+
+        <article id="planta3">
+          <button id="NoMeOlvides"><img src="img/img3.jpg" alt=""></button>
+          <h4>Planta "No me olvides"</h4>
+        </article>
+
+        </div>
+      </section>
+    </main> 
+
+    <div id="tarjeta" style="display: none">
+      <h2>Validación de tu tarjeta de crédito</h2>    
+      <form id="form1" name="">
+        <br>
+        <label for="nombre">Nombre</label>
+      <br>
+        <input id="nombre" type="text" maxlength="18" name="nombre" value="">
+        <br>
+        <label for="cvv">CVV</label>
+      <br>
+        <input id="cvv" type="number" name="cvv" value="">
+        <br>
+        <label for="numero">Número de tarjeta</label>
+      <br>
+        <input id="numero" type="tel" maxlength="16" name="númeroTarjeta" value="">
+        <br>
+        <label for="fecha">Fecha de caducidad</label>
+      <br>
+        <input id="fecha" type="month" name="fecha" value="">
+      <br>
+      </form>
+      <br>
+      <button id="validar">Validar Tarjeta</button>
+      <button id="btnReset">Limpiar Datos</button>
+      <button id="inicio">Volver al Inicio</button>
+      
+    </div> 
+
+
+    <div id="positivo" style ="display:none">
+      <h2 id="mensajePositivo"></h2>
+    </div>
+
+    <div id="negativo" style ="display:none">
+      <h2 id="mensajeNegativo"></h2>
+    </div>
+    
+    <footer>
+    <br>
+      <div class="contenedor">
+        <p class="derechos">Vivero Gran Orquidea &copy;2021</p>
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
